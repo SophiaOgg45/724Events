@@ -13,4 +13,5 @@ export const MONTHS = {
   12: "décembre",
 };
 
+// Ajout +1 pour obtenir le mois correspondant
 export const getMonth = (date) => MONTHS[date.getMonth() + 1];

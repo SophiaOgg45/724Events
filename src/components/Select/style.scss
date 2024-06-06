@@ -3,6 +3,7 @@
   min-height: 86px;
   position: relative;
   margin-left: 8px;
+
   .label {
     color: white;
     margin-bottom: 4px;
@@ -28,6 +29,7 @@
   display: flex;
   position: absolute;
   z-index: 1;
+
   ul {
     position: relative;
     list-style: none;
@@ -55,6 +57,7 @@
     height: 32px;
     margin-top: 16px;
     margin-right: 8px;
+    cursor: pointer;
     &.close {
       transform: rotate(180deg);
     }
